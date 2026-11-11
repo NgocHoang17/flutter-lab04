@@ -1,8 +1,16 @@
 # Magic 8 Ball
 
-Qu? c?u ti?n tri v? c?c c?u tr? l?i ng?u nhi?n.
+Ứng dụng quả cầu tiên tri với các câu trả lời ngẫu nhiên.
 
-D? ?n Flutter ??c l?p, d?ng Flutter 3.38.6 / Dart 3.10.7.
+Dự án Flutter độc lập, dùng Flutter 3.38.6 / Dart 3.10.7.
+
+## Chức năng
+
+- Hiển thị hình ảnh quả cầu từ assets.
+- Nhấn quả cầu hoặc nút để nhận câu trả lời.
+- Quản lý trạng thái bằng StatefulWidget và dart:math.
+
+## Chạy và kiểm tra
 
 ```powershell
 flutter pub get
@@ -11,4 +19,5 @@ flutter test
 flutter run -d chrome
 ```
 
-T?i nguy?n c?n thi?t ?? c? s?n trong d? ?n. ?? ki?m tra b?ng Flutter 3.38.6 / Dart 3.10.7: analyze, unit/widget test v? build web.
+Tài nguyên cần thiết đã có sẵn trong dự án. Đã kiểm tra bằng analyze, unit/widget test và build web.
+
