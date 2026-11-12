@@ -51,7 +51,7 @@ class _MagicBallPageState extends State<MagicBallPage> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('MAGIC 8 BALL / 04')),
+    //appBar: AppBar(title: const Text('')),
     body: SafeArea(
       child: Center(
         child: SingleChildScrollView(
